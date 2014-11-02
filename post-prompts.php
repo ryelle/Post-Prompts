@@ -4,6 +4,8 @@
  * Author: Kelly Dwan
  * Author URI: http://redradar.net
  * Version: 0.1.0
+ * Text Domain: kd_prompts
+ * Domain Path: /languages/
  * Description: Set up posts with prompts for daily writing.
  */
 
@@ -48,6 +50,16 @@ class KD_PostPrompts {
 		add_filter( 'default_title', array( $this, 'default_title' ), 10 );
 		add_action( 'wp_dashboard_setup', array( $this, 'add_to_dashboard' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'styles' ) );
+		add_action( 'plugins_loaded', array( $this, 'load_textdomain' ), 99 );
+	}
+
+	/**
+	 * Load plugin textdomain.
+	 *
+	 * @return  void
+	 */
+	function load_textdomain() {
+		load_plugin_textdomain( 'kd_prompts', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	}
 
 	/**
