@@ -1,0 +1,50 @@
+# Copyright (C) 2014 Kelly Dwan
+# This file is distributed under the same license as the Post Prompts package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Prompts 0.1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/post-prompts\n"
+"POT-Creation-Date: 2014-11-02 02:48:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: post-prompts.php:68
+msgid "Prompt"
+msgstr ""
+
+#: post-prompts.php:80
+msgid "Need a blog topic? Here's the latest daily prompt from %s."
+msgstr ""
+
+#: post-prompts.php:90
+msgid "There was an error getting the prompt"
+msgstr ""
+
+#: post-prompts.php:95
+msgid "Start a post with this prompt"
+msgstr ""
+
+#: post-prompts.php:134
+msgid "Prompt: %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Post Prompts"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Set up posts with prompts for daily writing."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kelly Dwan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://redradar.net"
+msgstr ""

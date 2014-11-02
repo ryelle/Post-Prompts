@@ -1,0 +1,14 @@
+
+#kd-daily-prompt blockquote p,
+#kd-daily-prompt cite {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+#kd-daily-prompt cite:before {
+	content: ' \2014 ';
+}
+
+#kd-daily-prompt .button {
+	margin-top: 10px;
+}
